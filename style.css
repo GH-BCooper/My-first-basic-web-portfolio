@@ -1,0 +1,194 @@
+.page1 {
+    background-image: url("./assets/images/beachMe.jpg");
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 0px;
+}
+
+
+
+.heading {
+    position: relative;
+    color: rgb(30, 0, 54);
+    font-size: 100px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    text-align: right;
+    padding-right: 120px;
+    padding-top: 250px;
+    margin-bottom: 15px;
+    z-index: 2;
+    text-shadow: 5px 5px 5px rgba(30, 0, 54, 0.5);
+}
+
+.subheading {
+    position: relative;
+    color: rgb(30, 0, 54);
+    font-size: 35px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: right;
+    margin-top: 0px;
+    padding-right: 120px;
+    z-index: 2;
+}
+
+.page2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 50px;
+    background-color: rgb(234, 248, 253);
+}
+
+.coolMeImage {
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.subDetailsHeading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+
+.educationalProfile {
+    list-style: none;
+    padding: 0;
+}
+
+.technicalSkills {
+    list-style: none;
+    padding: 0;
+}
+
+.technicalSkills li {
+    margin-bottom: 16px;
+}
+.subDetails {
+    display: flex;
+    gap: 200px;
+    
+}
+
+.workHeading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 600px;
+    color: white;
+}
+
+.workImage {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.workSamples {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    
+}
+
+.workItem a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.page3 {
+    background-image: url("./assets/images/nightSky.webp");
+    padding: 50px;
+}
+
+.contactIcon {
+    width: 300px;
+    height: 300px;
+    margin-right: 15px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+    margin-top: 200px;
+}
+
+.page4 {
+    background-image: url("./assets/images/dynamicBG.webp");
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contactItemImage {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+}
+
+.contactBar {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.contactHeading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+    color: white;
+}
+
+.contactSubHeading {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    color: white;
+}
+
+.contactItemText {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.fontFamily1 {
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.footerText {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 14px;
+}
