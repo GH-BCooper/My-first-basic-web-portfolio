@@ -1,2 +1,3 @@
-# myWebsite
-This is a website based on myself.
+This is a basic website based on myself.
+Made entirely on CSS and HTML.
+This was my first decent looking portfolio website.
